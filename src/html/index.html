@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffechoc</title>
+  <link href="../../dist/css/styles.css" rel="stylesheet">
+  <link href="../styles/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="../img/icon.png" type="image/x-icon">
+</head>
+
+<body class="bg-[#4E3B31] text-gray-900 text-base font-quicksand">
+
+  <nav class="bg-[#3B2A20] border-b-2 border-[#D9C56E] p-4 fixed w-full top-0 z-50">
+    <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <div class="text-[#E7D5C2] text-xl font-bold">
+          Coffechoc
+        </div>
+        <button id="menu-toggle" class="md:hidden text-[#D9C56E] focus:outline-none">
+          <svg class="w-6 h-6 transition-transform duration-200" id="menu-icon" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <path class="transition-opacity" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+        <ul class="hidden md:flex space-x-6 text-[#D9C56E] font-bold">
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Sobre Nosotros</a></li>
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Beneficios</a></li>
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Ingredientes</a></li>
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Producción</a></li>
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Valor Nutricional</a></li>
+          <li><a href="#" class="hover:text-[#E7D5C2] transition-colors duration-200">Contacto</a></li>
+        </ul>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden">
+        <ul class="pt-2 space-y-2 text-[#D9C56E] font-bold">
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Sobre Nosotros</a></li>
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Beneficios</a></li>
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Ingredientes</a></li>
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Producción</a></li>
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Valor Nutricional</a>
+          </li>
+          <li><a href="#" class="block py-2 hover:text-[#E7D5C2] transition-colors duration-200">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-cover bg-center pt-16"
+    style="background-image: repeating-linear-gradient(-45deg, #a07e6a 0px, #a07e6a 20px, #6d503f 20px, #6d503f 40px);">
+    <div class="container grid grid-cols-2 gap-4 p-4">
+      <div
+        class="flex flex-col justify-center items-start text-white space-y-4 px-4 bg-[#3B2A20] rounded-xl shadow-lg h-auto">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold">Coffechoc La unión exquisita de café y chocolate</h1>
+        <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold text-slate-300">Descubre un nuevo placer para tus
+          sentidos</h2>
+        <p class="text-lg font-medium text-slate-100">Sumérgete en la intensidad del mejor café, combinado con la
+          suavidad irresistible del chocolate más fino.<br>Coffechoc es una experiencia gourmet que te llevará a un
+          nuevo nivel de placer.</p>
+        <button
+          class="bg-[#D9C56E] text-[#4E3B31] font-bold py-2 px-4 rounded-lg hover:bg-[#E0D18B] transition-colors">Descubre
+          más información</button>
+      </div>
+      <div class="flex justify-center p-4">
+        <img src="../img/chocolate.png" alt="Coffechoc" class="w-full h-full object-cover"
+          style="filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8));">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Acerca de Coffechoc</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="text-white space-y-6 bg-[#3B2A20] p-4 rounded-2xl">
+            <h3 class="text-2xl font-bold text-[#D9C56E] mb-4">¿Qué es Coffechoc?</h2>
+              <p class="text-lg leading-relaxed">
+                Coffechoc representa la fusión perfecta entre el chocolate y el café, dos ingredientes con historias
+                ricas
+                y sabores distintivos. Nuestra marca nace de la pasión por crear experiencias sensoriales únicas, donde
+                la
+                intensidad del café se encuentra con la suavidad del chocolate.
+              </p>
+              <div class="space-y-4 border-y-2 border-[#F8E6D1] p-2">
+                <h3 class="text-xl font-semibold text-[#D9C56E]">Nuestra Misión</h3>
+                <p class="leading-relaxed">
+                  Nos dedicamos a crear productos gourmet que no solo deleitan el paladar, sino que también promueven la
+                  sostenibilidad y el comercio justo, apoyando a pequeños productores locales mientras ofrecemos una
+                  experiencia premium a nuestros consumidores.
+                </p>
+              </div>
+          </div>
+
+          <div class="text-white space-y-6 bg-[#3B2A20] p-4 rounded-2xl">
+            <h2 class="text-2xl font-bold text-[#D9C56E] mb-4">Nuestros Objetivos</h2>
+            <div class="space-y-4" id="objective_container">
+            </div>
+            <button id="toggle-btn"
+              class="bg-[#D9C56E] text-[#4E3B31] font-bold py-2 px-4 rounded-lg hover:bg-[#E0D18B] transition-colors">
+              Ver Objetivos Específicos
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 bg-[#E7D5C2]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-[#3B2A20] mb-8 text-center">Beneficios de Coffechoc</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="benefits-container">
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12" id="ingredient_section">
+      <div class="container mx-auto px-4 space-y-9">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Ingredientes de Coffechoc</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="text-white space-y-4 bg-[#3B2A20] p-4 rounded-2xl text-center" id="ingredient_properties"></div>
+          <div class="text-white space-y-4 bg-[#3B2A20] p-4 rounded-2xl text-center flex flex-col justify-center">
+            <h2 class="text-2xl font-bold text-[#D9C56E]">Tabla de Ingredientes</h2>
+            <table class="w-auto bg-[#fff7ee] rounded-lg shadow-lg">
+              <thead>
+                <tr class="bg-[#F8E6D1] text-[#3B2A20]">
+                  <th class="py-2 px-4">Ingrediente</th>
+                  <th class="py-2 px-4">Porcentaje</th>
+                  <th class="py-2 px-4">Peso en gramos / Bach de 42000g</th>
+                </tr>
+              </thead>
+              <tbody class="font-semibold text-slate-700" id="ingredients_body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 bg-[#E7D5C2]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-[#3B2A20] mb-8 text-center">Proceso de Producción de Coffechoc</h2>
+        <div class="text-white bg-[#3B2A20] p-6 rounded-2xl space-y-6" id="production_container"></div>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Valor Nutricional de Coffechoc</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <p id="nutritional_properties" class="text-white space-y-6 bg-[#3B2A20] p-4 rounded-2xl"></p>
+          <div class="text-white space-y-2 bg-[#3B2A20] p-4 rounded-2xl text-center flex flex-col justify-center">
+            <h2 class="text-2xl font-bold text-[#D9C56E]">Tabla de Valor Nutricional</h2>
+            <table class="w-auto bg-[#fff7ee] rounded-lg shadow-lg">
+              <thead>
+                <tr class="bg-[#F8E6D1] text-[#3B2A20]">
+                  <th class="py-2 px-4">Nutriente</th>
+                  <th class="py-2 px-4">Cantidad por porción (30g)</th>
+                  <th class="py-2 px-4">% Valor Diario</th>
+                </tr>
+              </thead>
+              <tbody class="font-semibold text-slate-700" id="nutritional_properties_body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 bg-[#3B2A20]">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-white mb-8 text-center">Contacto</h2>
+        <div class="grid md:grid-cols-2 gap-8 font-medium">
+          <div class="bg-[#E7D5C2] text-[#3B2A20] p-6 rounded-2xl">
+            <h3 class="text-2xl font-semibold mb-4">Información de Contacto</h3>
+            <div class="flex items-center mb-4">
+              <img src="https://avatars.githubusercontent.com/u/168371491?s=96&v=4" alt="Javier Haro"
+                class="w-16 h-16 rounded-full mr-4">
+              <div>
+                <p class="font-bold">Javier Haro Soledispa</p>
+                <p>Estudiante de Ingeniería de Software</p>
+              </div>
+            </div>
+            <p><strong>Teléfono:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> jharos@unemi.edu.ec</p>
+            <h4 class="text-xl font-semibold mt-4">Redes Sociales</h4>
+            <div class="flex space-x-4 mt-2">
+              <a href="#" class="text-[#3B2A20]"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#" class="text-[#3B2A20]"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="#" class="text-[#3B2A20]"><i class="fab fa-instagram fa-2x"></i></a>
+              <a href="#" class="text-[#3B2A20]"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="bg-[#E7D5C2] p-6 rounded-2xl">
+            <h3 class="text-2xl font-semibold mb-4 text-[#3B2A20]">Enviar Sugerencias</h3>
+            <form>
+              <div class="mb-4">
+                <label class="block text-[#3B2A20] font-semibold mb-2" for="name">Nombre:</label>
+                <input type="text" id="name" class="w-full p-2 rounded-lg bg-slate-50 font-semibold" placeholder="Tu Nombre"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label class="block text-[#3B2A20] font-semibold mb-2" for="email">Email:</label>
+                <input type="email" id="email" class="w-full p-2 rounded-lg bg-slate-50 font-semibold" placeholder="Tu Email"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label class="block text-[#3B2A20] font-semibold mb-2" for="message">Sugerencia:</label>
+                <textarea id="message" rows="4" class="w-full p-2 rounded-lg bg-slate-50 font-semibold"
+                  placeholder="Tu sugerencia aquí..." required></textarea>
+              </div>
+              <button type="submit"
+                class="bg-[#3B2A20] text-[#D9C56E] py-2 px-4 rounded-lg font-semibold">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#4E3B31] text-[#D9C56E] py-6">
+    <div class="container mx-auto text-center font-bold">
+      <p>&copy; 2021 Coffechoc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+    <script>
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const menuIcon = document.getElementById('menu-icon');
+      let isOpen = false;
+
+      menuToggle.addEventListener('click', () => {
+        isOpen = !isOpen;
+        mobileMenu.classList.toggle('hidden');
+
+        if (isOpen) {
+          menuIcon.style.transform = 'rotate(90deg)';
+        } else {
+          menuIcon.style.transform = 'rotate(0)';
+        }
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!menuToggle.contains(e.target) && !mobileMenu.contains(e.target) && !mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.add('hidden');
+          menuIcon.style.transform = 'rotate(0)';
+          isOpen = false;
+        }
+      });
+
+      window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768 && !mobileMenu.classList.contains('hidden')) {
+          mobileMenu.classList.add('hidden');
+          menuIcon.style.transform = 'rotate(0)';
+          isOpen = false;
+        }
+      });
+    </script>
+
+    <script src="../js/coffechoc.js"></script>
+
+</body>
+
+</html>
