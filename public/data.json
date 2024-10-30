@@ -1,0 +1,369 @@
+{
+  "nav": {
+    "brand": "Coffechoc",
+    "links": [
+      {
+        "name": "Inicio",
+        "id": "header",
+        "icon": "House"
+      },
+      {
+        "name": "Sobre Nosotros",
+        "id": "about",
+        "icon": "Info"
+
+      },
+      {
+        "name": "Beneficios",
+        "id": "benefits",
+        "icon": "Heart"
+      },
+      {
+        "name": "Ingredientes",
+        "id": "ingredients",
+        "icon": "LeafyGreen"
+      },
+      {
+        "name": "Producción",
+        "id": "production_process",
+        "icon": "Factory"
+      },
+      {
+        "name": "Info. Nutricional",
+        "id": "nutritional_info",
+        "icon": "ScrollText"
+      },
+      {
+        "name": "Contacto",
+        "id": "contact",
+        "icon": "MessageCircle"
+      }
+    ]
+  },
+  "header": [
+    {
+      "title": "Coffechoc: La unión exquisita de café y chocolate",
+      "description": [
+        "Sumérgete en la intensidad del mejor café, combinado con la suavidad irresistible del chocolate más fino.",
+        "Coffechoc es una experiencia gourmet que te llevará a un nuevo nivel de placer."
+      ],
+      "imgUrl": "./img/chocolate.png"
+    }
+  ],
+  "about": {
+    "title": "Sobre Nosotros",
+    "content": [
+      {
+        "title": "¿Qué es Coffechoc?",
+        "description": "Coffechoc representa la fusión perfecta entre el chocolate y el café, dos ingredientes con historias ricas y sabores distintivos. Nuestra marca nace de la pasión por crear experiencias sensoriales únicas, donde la intensidad del café se encuentra con la suavidad del chocolate.",
+        "imgUrl": "./img/about/about_coffechop.jpg"
+      },
+      {
+        "title": "Nuestra Misión",
+        "description": "En Coffechoc, nos esforzamos por ofrecer productos gourmet de la más alta calidad, elaborados con ingredientes naturales y sostenibles. Buscamos deleitar a los amantes del chocolate y el café con una experiencia culinaria excepcional, que combine sabores intensos y beneficios para la salud.",
+        "imgUrl": "./img/about/our_mission.jpg"
+      }
+    ]
+  },
+  "objectives": {
+    "title": "Nuestros Objetivos",
+    "content": [
+      {
+        "title": "Objetivo General",
+        "description": [
+          "Promover el consumo de productos gourmet con valor agregado en sabor, calidad y presentación.",
+          "Fomentar la producción sostenible y el comercio justo, apoyando a pequeños productores locales.",
+          "Ofrecer productos saludables aprovechando los beneficios antioxidantes del cacao y café.",
+          "Posicionar nuestros productos en el mercado global, destacando su calidad artesanal.",
+          "Construir una marca reconocida en el mercado gourmet, diferenciada por calidad e innovación."
+        ]
+      },
+      {
+        "title": "Objetivos Específicos",
+        "description": [
+          "Desarrollar una línea de productos premium que combine las mejores variedades de café y cacao.",
+          "Establecer alianzas estratégicas con productores locales certificados en prácticas sostenibles.",
+          "Implementar procesos de producción que preserven los beneficios naturales de los ingredientes.",
+          "Crear una red de distribución que garantice la frescura y calidad de nuestros productos.",
+          "Educar a los consumidores sobre los beneficios y la calidad de nuestros productos artesanales."
+        ]
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios de Consumir Coffechoc",
+    "description": "Coffechoc es una deliciosa combinación de café y chocolate que ofrece una amplia gama de beneficios para la salud y el bienestar. A continuación, se detallan algunos de los beneficios más destacados de consumir Coffechoc:",
+    "content": [
+      {
+        "title": "Aumento de Energía y Mejora del Estado de Ánimo",
+        "description": "La combinación de la cafeína del café y los compuestos bioactivos del chocolate ofrece un impulso de energía. Esto ayuda a mejorar la concentración, el estado de alerta y a combatir la fatiga. Además, el chocolate contiene sustancias que favorecen la producción de endorfinas, las 'hormonas de la felicidad', mejorando el estado de ánimo y proporcionando una sensación de bienestar.",
+        "iconKey": "energy"
+      },
+      {
+        "title": "Rico en Antioxidantes",
+        "description": "Tanto el chocolate como el café son fuentes potentes de antioxidantes, que ayudan a combatir los radicales libres y el estrés oxidativo en el cuerpo. Esto contribuye a la protección de las células, reduciendo el riesgo de desarrollar enfermedades crónicas y promoviendo una mejor salud general.",
+        "iconKey": "immune"
+      },
+      {
+        "title": "Mejora de la Función Cognitiva",
+        "description": "La cafeína presente en Coffechoc puede mejorar la función cognitiva, incluyendo el enfoque, la memoria y la agudeza mental. Esto es ideal para aquellos momentos en que se necesita un estímulo extra para mantener la productividad y la concentración durante el día.",
+        "iconKey": "focus"
+      },
+      {
+        "title": "Protección Cardiovascular",
+        "description": "Los flavonoides del cacao, junto con los antioxidantes del café, pueden contribuir a la salud del corazón, mejorando la circulación sanguínea y ayudando a regular la presión arterial. Un consumo moderado puede ofrecer beneficios para el sistema cardiovascular, lo que lo convierte en una opción interesante para quienes buscan cuidar su salud mientras disfrutan de un producto gourmet.",
+        "iconKey": "heart"
+      },
+      {
+        "title": "Experiencia Sensorial Única",
+        "description": "Coffechoc ofrece una combinación de sabores intensos y complementarios del chocolate y el café, que brindan una experiencia culinaria única. Cada bocado es una mezcla de amargor, dulzura y notas aromáticas que deleitan el paladar. Este perfil sensorial lo convierte en un placer para los amantes del chocolate y el café, proporcionando una experiencia de lujo en cada degustación.",
+        "iconKey": "mood"
+      },
+      {
+        "title": "Promueve la Salud Hepática y Metabólica",
+        "description": "Algunos estudios sugieren que el consumo de café puede estar asociado con una mejor salud hepática y un menor riesgo de desarrollar diabetes tipo 2, lo cual también se aplica a Coffechoc gracias a su contenido de cafeína. Esto lo hace una opción atractiva para aquellos interesados en el bienestar y el mantenimiento de una salud metabólica equilibrada.",
+        "iconKey": "immune"
+      }
+    ]
+  },
+  "ingredients": {
+    "title": "Ingredientes de Coffechoc",
+    "description": "Coffechoc se elabora con una selección cuidadosa de ingredientes de alta calidad, que se combinan para crear un producto excepcional.",
+    "content": [
+      {
+        "name": "Licor",
+        "percentage": "27.5%",
+        "weight": "1155g",
+        "properties": "Aporta un sabor intenso y mejora la textura del chocolate. Contiene antioxidantes que ayudan a combatir el estrés oxidativo.",
+        "imgUrl": "./img/ingredients/liqueur.jpg"
+      },
+      {
+        "name": "Manteca",
+        "percentage": "20%",
+        "weight": "840g",
+        "properties": "Mejora la cremosidad del producto y actúa como un emulsionante natural. Fuente de grasas saludables.",
+        "imgUrl": "./img/ingredients/butter.jpg"
+      },
+      {
+        "name": "Leche",
+        "percentage": "25%",
+        "weight": "1050g",
+        "properties": "Proporciona suavidad y un sabor más dulce. Rica en calcio y proteínas, contribuye a la salud ósea.",
+        "imgUrl": "./img/ingredients/milk.jpg"
+      },
+      {
+        "name": "Azúcar",
+        "percentage": "27%",
+        "weight": "1134g",
+        "properties": "Endulza el producto y equilibra el amargor del café y el chocolate. Usar con moderación es clave.",
+        "imgUrl": "./img/ingredients/sugar.jpg"
+      },
+      {
+        "name": "Lectina de Soya",
+        "percentage": "0.5%",
+        "weight": "21g",
+        "properties": "Ayuda en la emulsificación y mejora la textura. Contiene grasas saludables y puede tener beneficios para la salud cardiovascular.",
+        "imgUrl": "./img/ingredients/soy_lecithin.jpg"
+      },
+      {
+        "name": "Café",
+        "percentage": "15%",
+        "weight": "630g",
+        "properties": "Fuente de cafeína que aumenta la alerta y mejora el rendimiento físico. Rico en antioxidantes, puede reducir el riesgo de enfermedades crónicas.",
+        "imgUrl": "./img/ingredients/coffe.jpg"
+      }
+    ]
+  },
+  "productionProcess": {
+    "phasesTitle": "Fases del Proceso de Producción",
+    "description": "En Coffechoc, nos enorgullecemos de nuestro proceso de producción meticuloso y sostenible. Utilizamos ingredientes de la más alta calidad, priorizando la salud y el bienestar de nuestros consumidores. A continuación, se describen las fases clave de nuestro proceso de producción:",
+    "phases": [
+      {
+        "title": "Selección de Ingredientes",
+        "description": "Elegimos cuidadosamente los mejores ingredientes, como café, licor, leche, y otros componentes que garantizan un producto final excepcional.",
+        "imgUrl": "./img/production/selection.jpg"
+      },
+      {
+        "title": "Mezcla",
+        "description": "Los ingredientes se combinan en las proporciones adecuadas, asegurando una mezcla homogénea que maximiza el sabor y los beneficios nutricionales.",
+        "imgUrl": "./img/production/selection.jpg"
+      },
+      {
+        "title": "Temperado",
+        "description": "El chocolate se somete a un proceso de templado controlado que asegura una textura suave y brillante, mejorando su apariencia y calidad.",
+        "imgUrl": "./img/production/selection.jpg"
+      },
+      {
+        "title": "Moldeo",
+        "description": "La mezcla se vierte en moldes para darle forma. Este paso es crucial para definir la presentación final de nuestro producto.",
+        "imgUrl": "./img/production/selection.jpg"
+      },
+      {
+        "title": "Enfriado",
+        "description": "Después del moldeo, el chocolate se enfría adecuadamente para asegurar que mantenga su forma y textura ideales.",
+        "imgUrl": "./img/production/selection.jpg"
+      },
+      {
+        "title": "Empaque",
+        "description": "Finalmente, nuestros productos se empaquetan de manera sostenible, asegurando que lleguen a nuestros consumidores en perfectas condiciones.",
+        "imgUrl": "./img/production/selection.jpg"
+      }
+    ],
+    "conclusion": "Este proceso no solo garantiza la calidad de Coffechoc, sino que también respeta el medio ambiente y promueve prácticas de producción sostenibles. Creemos que cada bocado de nuestro chocolate debe ser una experiencia deliciosa y consciente."
+  },
+  "nutritionalInfo": {
+    "title": "Información Nutricional",
+    "description": "En Coffechoc, nos enorgullecemos de ofrecer un balance perfecto entre sabor y beneficios para la salud. A continuación, se detalla el valor nutricional de una porción de 30g de nuestro producto:",
+    "content": [
+      {
+        "nutrient": "Calorías",
+        "amount": "150 kcal",
+        "dailyValue": "8%",
+        "details": "Con 150 kcal por porción, Coffechoc es una opción que equilibra sabor y energía, siendo ideal como un snack entre comidas.",
+        "icon": "Fire"
+      },
+      {
+        "nutrient": "Grasas Totales",
+        "amount": "10 g",
+        "dailyValue": "15%",
+        "details": "El contenido de grasas proviene principalmente de la manteca de cacao, que aporta ácidos grasos saludables y ayuda a mantener la textura cremosa.",
+        "icon": "Droplet"
+      },
+      {
+        "nutrient": "Proteínas",
+        "amount": "2 g",
+        "dailyValue": "4%",
+        "details": "Gracias a la leche presente en la receta, Coffechoc proporciona proteínas beneficiosas para la salud ósea y la reparación de tejidos.",
+        "icon": "Cookie"
+      },
+      {
+        "nutrient": "Fibra Dietética",
+        "amount": "2 g",
+        "dailyValue": "8%",
+        "details": "El cacao contribuye con fibra dietética, favoreciendo la digestión y la salud intestinal.",
+        "icon": "Wheat"
+      },
+      {
+        "nutrient": "Cafeína",
+        "amount": "15 mg",
+        "dailyValue": "--",
+        "details": "La presencia del café le da a Coffechoc un toque estimulante, con 15 mg de cafeína por porción, ideal para un impulso de energía sin excesos.",
+        "icon": "Coffee"
+      },
+      {
+        "nutrient": "Calcio",
+        "amount": "60 mg",
+        "dailyValue": "5%",
+        "details": "Gracias a la leche, Coffechoc también aporta calcio, que es esencial para la salud ósea.",
+        "icon": "Droplet"
+      },
+      {
+        "nutrient": "Hierro",
+        "amount": "2 mg",
+        "dailyValue": "10%",
+        "details": "El cacao presente en Coffechoc es una fuente natural de hierro, que favorece la oxigenación del cuerpo.",
+        "icon": "Leaf"
+      },
+      {
+        "nutrient": "Azúcares",
+        "amount": "12 g",
+        "dailyValue": "--",
+        "details": "El contenido de azúcares en Coffechoc es moderado, lo que lo convierte en una opción equilibrada para satisfacer el antojo de dulce.",
+        "icon": "Heart"
+      },
+      {
+        "nutrient": "Sodio",
+        "amount": "20 mg",
+        "dailyValue": "1%",
+        "details": "Con solo 20 mg de sodio por porción, Coffechoc es una alternativa baja en sal, ideal para quienes buscan reducir su consumo de sodio.",
+        "icon": "Info"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Si deseas obtener más información sobre Coffechoc, realizar un pedido o compartir tus comentarios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y responder a todas tus preguntas.",
+    "teamMember": {
+      "name": "Javier Haro Soledispa",
+      "role": "Estudiante de Ingeniería de Software",
+      "email": "jharos@unemi.edu.ec",
+      "address": "Universidad Estatal de Milagro",
+      "linkedin": "/",
+      "github": "https://github.com/JaviOHS",
+      "portfolio": "/",
+      "imgUrl": "./img/user.png"
+    },
+    "suggestionForm": {
+      "formTitle": "Formulario de Sugerencias",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nombre",
+          "type": "text",
+          "placeholder": "Escribe tu nombre",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Correo Electrónico",
+          "type": "email",
+          "placeholder": "Escribe tu correo electrónico",
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "Mensaje o Sugerencia",
+          "type": "textarea",
+          "placeholder": "Escribe tu mensaje o sugerencia",
+          "required": true
+        }
+      ],
+      "submitButton": {
+        "text": "Enviar Sugerencia",
+        "successMessage": "¡Gracias por tu sugerencia! Nos pondremos en contacto pronto."
+      }
+    }
+  },
+  "footer": {
+    "brandDescription": "Explora el delicioso mundo de Coffechoc, donde el café y el chocolate se encuentran.",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/JaviOHS/io-coffechoc-website",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Portfolio",
+        "url": "/",
+        "icon": "web"
+      }
+    ],
+    "quickLinks": [
+      {
+        "name": "UNEMI",
+        "url": "https://www.unemi.edu.ec/"
+      },
+      {
+        "name": "SGA",
+        "url": "https://sga.unemi.edu.ec/loginsga"
+      },
+      {
+        "name": "Aula Grado",
+        "url": "https://aulagrado.unemi.edu.ec/"
+      }
+    ],
+    "contactInfo": {
+      "email": "jharos@unemi.edu.ec",
+      "phone": "+1 (234) 567-890",
+      "address": "Universidad Estatal de Milagro"
+    },
+    "developerInfo": {
+      "name": "Equipo de Desarrollo"
+    }
+  }
+}

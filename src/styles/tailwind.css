@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-[#4E3B31] text-gray-900 text-base font-quicksand;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
