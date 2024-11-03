@@ -74,8 +74,7 @@
           "Promover el consumo de productos gourmet con valor agregado en sabor, calidad y presentación.",
           "Fomentar la producción sostenible y el comercio justo, apoyando a pequeños productores locales.",
           "Ofrecer productos saludables aprovechando los beneficios antioxidantes del cacao y café.",
-          "Posicionar nuestros productos en el mercado global, destacando su calidad artesanal.",
-          "Construir una marca reconocida en el mercado gourmet, diferenciada por calidad e innovación."
+          "Posicionar nuestros productos en el mercado global, destacando su calidad artesanal."
         ]
       },
       {
@@ -84,8 +83,7 @@
           "Desarrollar una línea de productos premium que combine las mejores variedades de café y cacao.",
           "Establecer alianzas estratégicas con productores locales certificados en prácticas sostenibles.",
           "Implementar procesos de producción que preserven los beneficios naturales de los ingredientes.",
-          "Crear una red de distribución que garantice la frescura y calidad de nuestros productos.",
-          "Educar a los consumidores sobre los beneficios y la calidad de nuestros productos artesanales."
+          "Crear una red de distribución que garantice la frescura y calidad de nuestros productos."
         ]
       }
     ]
@@ -181,32 +179,32 @@
       {
         "title": "Selección de Ingredientes",
         "description": "Elegimos cuidadosamente los mejores ingredientes, como café, licor, leche, y otros componentes que garantizan un producto final excepcional.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/1.jpg"
       },
       {
         "title": "Mezcla",
         "description": "Los ingredientes se combinan en las proporciones adecuadas, asegurando una mezcla homogénea que maximiza el sabor y los beneficios nutricionales.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/2.jpg"
       },
       {
         "title": "Temperado",
         "description": "El chocolate se somete a un proceso de templado controlado que asegura una textura suave y brillante, mejorando su apariencia y calidad.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/3.jpg"
       },
       {
         "title": "Moldeo",
         "description": "La mezcla se vierte en moldes para darle forma. Este paso es crucial para definir la presentación final de nuestro producto.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/4.jpg"
       },
       {
         "title": "Enfriado",
         "description": "Después del moldeo, el chocolate se enfría adecuadamente para asegurar que mantenga su forma y textura ideales.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/5.jpg"
       },
       {
         "title": "Empaque",
         "description": "Finalmente, nuestros productos se empaquetan de manera sostenible, asegurando que lleguen a nuestros consumidores en perfectas condiciones.",
-        "imgUrl": "./img/production/selection.jpg"
+        "imgUrl": "./img/production/6.jpg"
       }
     ],
     "conclusion": "Este proceso no solo garantiza la calidad de Coffechoc, sino que también respeta el medio ambiente y promueve prácticas de producción sostenibles. Creemos que cada bocado de nuestro chocolate debe ser una experiencia deliciosa y consciente."
@@ -285,12 +283,12 @@
     "description": "Si deseas obtener más información sobre Coffechoc, realizar un pedido o compartir tus comentarios, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y responder a todas tus preguntas.",
     "teamMember": {
       "name": "Javier Haro Soledispa",
-      "role": "Estudiante de Ingeniería de Software",
+      "role": "Desarrollador y Diseñador Web",
       "email": "jharos@unemi.edu.ec",
       "address": "Universidad Estatal de Milagro",
-      "linkedin": "/",
+      "linkedin": "https://github.com/JaviOHS",
       "github": "https://github.com/JaviOHS",
-      "portfolio": "/",
+      "portfolio": "https://github.com/JaviOHS",
       "imgUrl": "./img/user.png"
     },
     "suggestionForm": {
@@ -334,12 +332,12 @@
       },
       {
         "name": "LinkedIn",
-        "url": "/",
+        "url": "https://github.com/JaviOHS/io-coffechoc-website",
         "icon": "linkedin"
       },
       {
         "name": "Portfolio",
-        "url": "/",
+        "url": "https://github.com/JaviOHS/io-coffechoc-website",
         "icon": "web"
       }
     ],

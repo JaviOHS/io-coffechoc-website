@@ -3,7 +3,7 @@ import { X } from 'lucide-react';
 
 const BaseModal = ({ title, description, icon: Icon, color, onClose }) => (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-    <div className="relative rounded-2xl max-w-md w-full p-6 shadow-2xl" style={{ backgroundColor: color.background }}>
+    <div className="relative rounded-2xl max-w-md w-full p-6 shadow-2xl" style={{ backgroundColor: color.background }} data-aos="fade-up" data-aos-duration="400">
       <button onClick={onClose} className="absolute top-4 right-4 transition-colors">
         <X className="w-6 h-6" style={{ color: color.closeIcon }} />
       </button>

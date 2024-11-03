@@ -6,11 +6,11 @@ import DecorativeBackground from './DecorativeBackground';
 
 export default function About({ about }) {
   return (
-    <section id="about" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden">
+    <section id="about" className="relative py-24 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="geometricDark" theme="dark" />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="fade-right" data-aos-duration="800">
         <SectionTitle iconLeft={Coffee} iconRight={Leaf} color="#e5dbaf" title={about.title} />
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8" data-aos="fade-in">
           {about.content.map((item, index) => (
             <ContainerCard key={index} decoratorPosition="top-right">
               <div className="flex flex-col md:flex-row items-center gap-6">

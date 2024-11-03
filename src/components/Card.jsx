@@ -8,10 +8,10 @@ const Card = ({ title, icon: Icon, color, description, onClick }) => (
         <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto transform transition-transform group-hover:rotate-12" style={{ backgroundColor: color.iconBg }}>
           <Icon className="w-8 h-8" style={{ color: color.icon }} />
         </div>
-        <h3 className="text-xl font-semibold text-center" style={{ color: color.text }}>{title}</h3>
+        <h3 className="text-xl font-bold text-center" style={{ color: color.text }}>{title}</h3>
         {description && (
           <div className="flex justify-center">
-            <span className="text-sm opacity-80 group-hover:opacity-100" style={{ color: color.text }}>{description}</span>
+            <span className="text-sm opacity-80 group-hover:opacity-100 font-semibold" style={{ color: color.text }}>{description}</span>
           </div>
         )}
       </div>

@@ -52,9 +52,9 @@ const Ingredients = ({ ingredients }) => {
   const currentIngredient = ingredients.content.length > 0 ? ingredients.content[currentIndex] : null;
 
   return (
-    <section id="ingredients" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden">
+    <section id="ingredients" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="icons" theme="dark" />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="fade-right">
         <SectionTitle iconLeft={NotepadText} iconRight={Coffee} color="#e5dbaf" title={ingredients.title} />
         <p className="text-lg text-gray-300 max-w-3xl mx-auto text-center mb-12 leading-relaxed">
           {ingredients.description}
@@ -62,8 +62,21 @@ const Ingredients = ({ ingredients }) => {
         <div className="grid md:grid-cols-2 gap-8">
           {currentIngredient && (
             <>
-              <IngredientCard ingredient={currentIngredient} isActive />
-              <IngredientStats ingredient={currentIngredient} />
+              <div 
+                key={`card-${currentIndex}`}
+                data-aos="fade-right"
+                data-aos-duration="600"
+              >
+                <IngredientCard ingredient={currentIngredient} isActive />
+              </div>
+
+              <div
+                key={`stats-${currentIndex}`}
+                data-aos="fade-left"
+                data-aos-duration="800"
+              >
+                <IngredientStats ingredient={currentIngredient} />
+              </div>
             </>
           )}
         </div>

@@ -37,9 +37,9 @@ const ProductionProcess = ({ productionProcess }) => {
   const [activePhase, setActivePhase] = useState(null);
 
   return (
-    <section id="production_process" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden">
+    <section id="production_process" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="production" theme="dark"/>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="zoom-in-down">
         <SectionTitle iconLeft={Factory} iconRight={Coffee} color="#e5dbaf" title={phasesTitle} />
         <p className="text-lg text-gray-300 max-w-3xl mx-auto text-center mb-12 leading-relaxed">
           {description}
@@ -56,7 +56,7 @@ const ProductionProcess = ({ productionProcess }) => {
             />
           ))}
         </div>
-        <div className="mt-16 bg-[#3B2A20] rounded-2xl p-8 relative overflow-hidden">
+        <div className="mt-16 bg-[#3B2A20] rounded-2xl p-8 relative overflow-hidden" data-aos="fade-right">
           <PackageCheck className="absolute right-8 top-1/2 transform -translate-y-1/2 text-[#D9C56E] opacity-10 w-32 h-32" />
           <div className="relative z-10 max-w-3xl">
             <h3 className="text-2xl font-bold text-[#D9C56E] mb-4 font-serif">Conclusión</h3>

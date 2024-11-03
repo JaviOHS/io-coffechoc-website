@@ -17,14 +17,14 @@ const Benefits = ({ benefits }) => {
   const [selectedBenefit, setSelectedBenefit] = useState(null);
 
   return (
-    <section id="benefits" className="relative py-16 bg-gradient-to-br from-[#E7D5C2] to-[#d4b69c] overflow-hidden">
+    <section id="benefits" className="relative py-16 bg-gradient-to-br from-[#E7D5C2] to-[#d4b69c] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="geometricLight" theme="light" />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4" data-aos="zoom-in">
         <SectionTitle iconLeft={Newspaper} iconRight={HeartPulse} color="#3B2A20" title={benefits.title} />
         <p className="text-lg text-[#2C1810] max-w-3xl mx-auto text-center mb-12 leading-relaxed">
           {benefits.description}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
           {benefits.content.map((benefit, index) => (
             <Card
               key={index}

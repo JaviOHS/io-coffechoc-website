@@ -20,7 +20,7 @@ const Contact = ({ contact }) => {
   };
 
   return (
-    <section id="contact" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden">
+    <section id="contact" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in" data-aos-duration="600">
       <DecorativeBackground pattern="dots" theme="dark" />
       <div className="container mx-auto px-4 relative">
         <SectionTitle iconLeft={Coffee} iconRight={MailPlus} color="#e5dbaf" title={contact.title} />
@@ -28,7 +28,7 @@ const Contact = ({ contact }) => {
           {contact.description}
         </p>
         <div className="grid md:grid-cols-2 gap-8 items-start">
-          <div className="bg-[#3B2A20]/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl transform hover:scale-105 transition-transform duration-300">
+          <div className="bg-[#3B2A20]/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl transform hover:scale-105 transition-transform duration-300" data-aos="fade-right">
             <div className="relative">
               <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
                 <div className="w-24 h-24 rounded-full bg-[#D9C56E]/20 p-2 backdrop-blur-sm">
@@ -68,7 +68,7 @@ const Contact = ({ contact }) => {
               </div>
             </div>
           </div>
-          <div className="bg-[#3B2A20]/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl">
+          <div className="bg-[#3B2A20]/80 backdrop-blur-sm p-8 rounded-2xl shadow-xl" data-aos="fade-left">
             <h3 className="text-2xl font-bold text-[#D9C56E] mb-6 flex items-center gap-3">
               <MessageCircle className="w-7 h-7" />
               {suggestionForm.formTitle}
