@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User, Mail, MessageCircle, CheckCircle, X, MapPinHouse, MailPlus, Github, Linkedin, Globe, Coffee } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import DecorativeBackground from './DecorativeBackground';
+import SectionTitle from '../components/SectionTitle';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const Contact = ({ contact }) => {
   const { teamMember, suggestionForm } = contact;

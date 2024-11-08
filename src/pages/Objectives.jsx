@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Target, ChevronRight, Award, BarChart, Presentation } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import ContainerCard from './ContainerCard';
-import DecorativeBackground from './DecorativeBackground';
+import SectionTitle from '../components/SectionTitle';
+import ContainerCard from '../components/ContainerCard';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const ObjectiveCard = ({ title, descriptions, isActive, icon: Icon }) => (
   <ContainerCard isActive={isActive} decoratorPosition="bottom-left">

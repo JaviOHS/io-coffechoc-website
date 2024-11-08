@@ -1,11 +1,12 @@
 import React from 'react';
-import About from './About';
-import Objectives from './Objectives';
-import Benefits from './Benefits';
-import Ingredients from './Ingredients';
-import ProductionProcess from './ProductionProcess';
-import Nutritional from './NutritionalInfo';
-import Contact from './Contact';
+import About from '../pages/About';
+import Objectives from '../pages/Objectives';
+import Benefits from '../pages/Benefits';
+import Ingredients from '../pages/Ingredients';
+import ProductionProcess from '../pages/ProductionProcess';
+import Nutritional from '../pages/NutritionalInfo';
+import Contact from '../pages/Contact';
+import Creators from '../pages/Creators';
 
 const MainComponent = ({ data }) => {
   return (
@@ -16,6 +17,7 @@ const MainComponent = ({ data }) => {
       <Ingredients ingredients={data.ingredients} />
       <ProductionProcess productionProcess={data.productionProcess} />
       <Nutritional nutritionalInfo={data.nutritionalInfo} />
+      <Creators creators={data.creators} />
       <Contact contact={data.contact} />
     </main>
   );

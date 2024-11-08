@@ -1,9 +1,9 @@
 import React from 'react';
 import { Coffee, Cookie, Star, Heart, ChevronRight, Leaf, ShoppingBag, Award } from 'lucide-react';
-import Badge from './Badge';
-import FeatureCard from './FeatureCard';
-import CustomButton from './CustomButton';
-import FloatingIcon from './FloatingIcon';
+import Badge from '../components/Badge';
+import FeatureCard from '../components/FeatureCard';
+import CustomButton from '../components/CustomButton';
+import FloatingIcon from '../components/FloatingIcon';
 
 function Header({ header }) {
   const { title, description, imgUrl } = header[0];
@@ -22,7 +22,7 @@ function Header({ header }) {
               <Badge icon={Leaf} text="Orgánico" />
               <Badge icon={Award} text="Premiado" />
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white leading-tight">
               {title}
             </h1>
             <div className="space-y-4">

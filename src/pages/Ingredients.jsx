@@ -1,9 +1,9 @@
 import { Scale, Percent, Package2, NotepadText, Coffee } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import ContainerCard from './ContainerCard';
-import NavigationControls from './NavigationControls';
+import SectionTitle from '../components/SectionTitle';
+import ContainerCard from '../components/ContainerCard';
+import NavigationControls from '../components/NavigationControls';
 import usePagination from '../hooks/usePagination';
-import DecorativeBackground from './DecorativeBackground';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const IngredientCard = ({ ingredient, isActive }) => (
   <ContainerCard isActive={isActive}>

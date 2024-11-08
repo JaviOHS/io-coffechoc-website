@@ -7,17 +7,26 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    @apply bg-transparent;
+    @apply bg-[#3E2723]/30 backdrop-blur-sm;
 }
 
 ::-webkit-scrollbar-thumb {
-    @apply bg-[#D9C56E];
+    @apply bg-[#D9C56E] rounded-full border-2 border-transparent bg-clip-padding;
+    min-height: 40px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     @apply bg-[#f7e07a];
+}
+
+::-webkit-scrollbar-track:hover {
+    @apply bg-[#3E2723]/40;
+}
+
+::-webkit-scrollbar-corner {
+    @apply bg-transparent;
 }

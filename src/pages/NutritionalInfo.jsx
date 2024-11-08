@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Flame, Cookie, Coffee, Weight, Wheat, Bone, ScrollText, Activity } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import Card from './Card';
-import BaseModal from './BaseModal';
-import NavigationControls from './NavigationControls';
+import SectionTitle from '../components/SectionTitle';
+import Card from '../components/Card';
+import BaseModal from '../components/BaseModal';
+import NavigationControls from '../components/NavigationControls';
 import usePagination from '../hooks/usePagination';
-import DecorativeBackground from './DecorativeBackground';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const getIconComponent = (iconName) => {
   const icons = {

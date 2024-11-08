@@ -42,7 +42,7 @@
   },
   "header": [
     {
-      "title": "Coffechoc: La unión exquisita de café y chocolate",
+      "title": "Coffechoc: Un Viaje Exquisito de Café y Chocolate",
       "description": [
         "Sumérgete en la intensidad del mejor café, combinado con la suavidad irresistible del chocolate más fino.",
         "Coffechoc es una experiencia gourmet que te llevará a un nuevo nivel de placer."
@@ -275,6 +275,20 @@
         "dailyValue": "1%",
         "details": "Con solo 20 mg de sodio por porción, Coffechoc es una alternativa baja en sal, ideal para quienes buscan reducir su consumo de sodio.",
         "icon": "Info"
+      }
+    ]
+  },
+  "creators":{
+    "title": "Creadores de Coffechoc",
+    "description": "Conoce al equipo detrás de Coffechoc, apasionados por la creación de experiencias gourmet únicas que deleitan a los amantes del chocolate y el café.",
+    "members": [
+      {
+        "name": "Julissa Scarleth Delgado García",
+        "email": "jdelgadog@unemi.edu.ec"
+      },
+      {
+        "name": "Néstor Benju León Arreaga",
+        "email": "nleona@unemi.edu.ec"
       }
     ]
   },

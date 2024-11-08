@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Coffee, ChevronRight, Factory, PackageCheck } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import DecorativeBackground from './DecorativeBackground';
+import SectionTitle from '../components/SectionTitle';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const PhaseCard = ({ phase, index, isActive, onClick }) => {
   return (

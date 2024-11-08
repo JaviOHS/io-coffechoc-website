@@ -1,8 +1,8 @@
 import React from 'react';
 import { Coffee, Leaf } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import ContainerCard from './ContainerCard';
-import DecorativeBackground from './DecorativeBackground';
+import SectionTitle from '../components/SectionTitle';
+import ContainerCard from '../components/ContainerCard';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 export default function About({ about }) {
   return (

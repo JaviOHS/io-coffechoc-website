@@ -49,7 +49,7 @@ function Nav({ nav }) {
           <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden p-2 rounded-lg text-amber-400 hover:bg-amber-400/10 transition-colors">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
-          <div className={`lg:hidden absolute top-full left-0 right-0 bg-brown-900/95 backdrop-blur-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
+          <div className={`lg:hidden absolute top-full left-0 right-0 bg-brown-900/95 backdrop-blur-md transition-all duration-300 ${isOpen ? 'opacity-100 translate-y-0 bg-[#4A2C1D] rounded-2xl my-4' : 'opacity-0 -translate-y-4 pointer-events-none'}`}>
             <div className="container mx-auto px-4 py-4">
               {nav.links.map((item) => (
                 <MenuItem

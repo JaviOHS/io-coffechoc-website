@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Battery, Brain, Heart, Shield, Smile, Newspaper, HeartPulse } from 'lucide-react';
-import SectionTitle from './SectionTitle';
-import Card from './Card';
-import BaseModal from './BaseModal';
-import DecorativeBackground from './DecorativeBackground';
+import SectionTitle from '../components/SectionTitle';
+import Card from '../components/Card';
+import BaseModal from '../components/BaseModal';
+import DecorativeBackground from '../components/DecorativeBackground';
 
 const iconMap = {
   energy: Battery,
@@ -17,11 +17,11 @@ const Benefits = ({ benefits }) => {
   const [selectedBenefit, setSelectedBenefit] = useState(null);
 
   return (
-    <section id="benefits" className="relative py-16 bg-gradient-to-br from-[#E7D5C2] to-[#d4b69c] overflow-hidden" data-aos="fade-in">
+    <section id="benefits" className="relative py-16 bg-[#FAF5E4] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="geometricLight" theme="light" />
-      <div className="container mx-auto px-4" data-aos="zoom-in">
-        <SectionTitle iconLeft={Newspaper} iconRight={HeartPulse} color="#3B2A20" title={benefits.title} />
-        <p className="text-lg text-[#2C1810] max-w-3xl mx-auto text-center mb-12 leading-relaxed">
+      <div className="container mx-auto px-6" data-aos="zoom-in">
+        <SectionTitle iconLeft={Newspaper} iconRight={HeartPulse} color="#4A3C31" title={benefits.title} />
+        <p className="text-lg text-[#4A3C31] max-w-3xl mx-auto text-center mb-12 leading-relaxed">
           {benefits.description}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
@@ -31,11 +31,11 @@ const Benefits = ({ benefits }) => {
               title={benefit.title}
               icon={iconMap[benefit.iconKey] || Battery}
               color={{
-                background: '#3B2A20',
-                overlay: '#D9C56E',
-                iconBg: '#D9C56E',
-                icon: '#3B2A20',
-                text: '#D9C56E',
+                background: '#FFFFFF',
+                overlay: '#FFD7A8',
+                iconBg: '#FFD7A8',
+                icon: '#7D4F3A',
+                text: '#4A3C31',
               }}
               description="Click para más información"
               onClick={() => setSelectedBenefit(benefit)}
@@ -49,12 +49,12 @@ const Benefits = ({ benefits }) => {
           description={selectedBenefit.description}
           icon={iconMap[selectedBenefit.iconKey] || Battery}
           color={{
-            background: '#3B2A20',
-            iconBg: '#D9C56E',
-            icon: '#3B2A20',
-            text: '#D9C56E',
-            buttonBg: '#D9C56E',
-            buttonText: '#3B2A20',
+            background: '#FFFFFF',
+            iconBg: '#FFD7A8',
+            icon: '#7D4F3A',
+            text: '#4A3C31',
+            buttonBg: '#FFB347',
+            buttonText: '#4A3C31',
             closeIcon: 'gray',
           }}
           onClose={() => setSelectedBenefit(null)}
