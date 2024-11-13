@@ -37,14 +37,13 @@ const ProductionProcess = ({ productionProcess }) => {
   const [activePhase, setActivePhase] = useState(null);
 
   return (
-    <section id="production_process" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
+    <section id="production_process" className="relative py-20 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="production" theme="dark"/>
       <div className="container mx-auto px-4" data-aos="zoom-in-down">
         <SectionTitle iconLeft={Factory} iconRight={Coffee} color="#e5dbaf" title={phasesTitle} />
         <p className="text-lg text-gray-300 max-w-3xl mx-auto text-center mb-12 leading-relaxed">
           {description}
         </p>
-        <div className="hidden lg:block absolute left-1/2 top-1/3 bottom-1/3 w-1 bg-[#D9C56E] opacity-20 transform -translate-x-1/2" />
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 relative">
           {phases.map((phase, index) => (
             <PhaseCard

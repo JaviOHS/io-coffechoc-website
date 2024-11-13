@@ -43,10 +43,22 @@ function Header({ header }) {
             </div>
           </div>
           <div className="relative">
-            <div className="relative z-10 transform hover:scale-105 transition-transform duration-500 flex flex-col justify-center items-center" data-aos="fade-left" data-aos-duration="1000" >
-              <div className="absolute -inset-4 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full opacity-20 blur-3xl animate-pulse" />
-              <img src={imgUrl} alt="Coffechoc" className="relative w-84" />
-            </div>
+          <div className="relative z-10 transform hover:scale-105 transition-transform duration-500 flex flex-col justify-center items-center" data-aos="fade-left" data-aos-duration="1000">
+          <div className="absolute -inset-4 bg-gradient-to-r from-amber-500 to-amber-600 rounded-full opacity-20 blur-3xl animate-pulse" />
+          <img
+            src={imgUrl}
+            alt="Coffechoc"
+            className="relative w-[400px] animate-float"
+          />
+          <a
+            href="https://www.freepik.es/psd-gratis/fondo-3d-cafeteria_76601642.htm#fromView=search&page=1&position=6&uuid=73df39e2-4630-4fc4-b56e-d0f388cb2def"
+            className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-xs text-gray-400"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Designed by Freepik
+          </a>
+        </div>
             <FloatingIcon
               icon={Coffee}
               positionClasses="top-10 -right-6"
@@ -63,7 +75,6 @@ function Header({ header }) {
         </div>
       </div>
 
-      {/* Mueve los estilos CSS a un archivo CSS separado o mantenlos aquí si usas CSS-in-JS */}
       <style>
         {`
           @keyframes float {

@@ -20,7 +20,7 @@ const Contact = ({ contact }) => {
   };
 
   return (
-    <section id="contact" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in" data-aos-duration="600">
+    <section id="contact" className="relative py-20 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in" data-aos-duration="600">
       <DecorativeBackground pattern="dots" theme="dark" />
       <div className="container mx-auto px-4 relative">
         <SectionTitle iconLeft={Coffee} iconRight={MailPlus} color="#e5dbaf" title={contact.title} />

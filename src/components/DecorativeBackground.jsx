@@ -71,7 +71,7 @@ const DecorativeBackground = ({ pattern = 'icons', theme = 'light', customColors
         </div>
       </div>
     ),
-    Wheats: (
+    wheats: (
       <div className="absolute inset-0 overflow-hidden opacity-5">
         <div className="absolute w-full h-full">
           <div className="grid grid-cols-7 gap-14">
@@ -143,7 +143,6 @@ const DecorativeBackground = ({ pattern = 'icons', theme = 'light', customColors
     geometricLight: (
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0">
-          {/* Círculos grandes superpuestos */}
           <div className="absolute inset-0">
             <div className="grid grid-cols-6 gap-8 transform -rotate-6 scale-150">
               {Array.from({ length: 36 }).map((_, i) => (
@@ -159,8 +158,6 @@ const DecorativeBackground = ({ pattern = 'icons', theme = 'light', customColors
               ))}
             </div>
           </div>
-
-          {/* Líneas diagonales */}
           <div className="absolute inset-0" style={{
             backgroundImage: `repeating-linear-gradient(
               45deg,
@@ -170,8 +167,6 @@ const DecorativeBackground = ({ pattern = 'icons', theme = 'light', customColors
               #4A3C31 21px
             )`
           }} />
-
-          {/* Puntos pequeños */}
           <div className="absolute inset-0" style={{
             backgroundImage: `radial-gradient(#4A3C31 1px, transparent 1px)`,
             backgroundSize: '20px 20px',

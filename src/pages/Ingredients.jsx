@@ -52,7 +52,7 @@ const Ingredients = ({ ingredients }) => {
   const currentIngredient = ingredients.content.length > 0 ? ingredients.content[currentIndex] : null;
 
   return (
-    <section id="ingredients" className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
+    <section id="ingredients" className="relative py-20 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="icons" theme="dark" />
       <div className="container mx-auto px-4" data-aos="fade-right">
         <SectionTitle iconLeft={NotepadText} iconRight={Coffee} color="#e5dbaf" title={ingredients.title} />

@@ -28,7 +28,7 @@ const NutritionalInfo = ({ nutritionalInfo }) => {
   const visibleItems = nutritionalInfo.content.slice(startIndex, endIndex);
 
   return (
-    <section id="nutritional_info" className="relative py-16 bg-[#FAF5E4] overflow-hidden" data-aos="fade-in">
+    <section id="nutritional_info" className="relative py-20 bg-[#FAF5E4] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="icons" theme="light" />
       <div className="container mx-auto px-6">
         <SectionTitle iconLeft={ScrollText} iconRight={Activity} color="#4A3C31" title={nutritionalInfo.title} />

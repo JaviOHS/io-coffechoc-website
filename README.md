@@ -11,7 +11,6 @@ El sitio está construido con React y TailwindCSS, ofreciendo una experiencia de
 - 📱 Diseño responsive
 - 🎨 Interfaz moderna con TailwindCSS
 - 🔄 Animaciones suaves con AOS
-- 📍 Navegación con React Router
 
 ## 🚀 Inicio Rápido
 
@@ -62,7 +61,6 @@ npx serve build
 
 - [React](https://reactjs.org/) - Framework de UI
 - [TailwindCSS](https://tailwindcss.com/) - Framework de CSS
-- [React Router](https://reactrouter.com/) - Enrutamiento
 - [AOS](https://michalsnik.github.io/aos/) - Animaciones on-scroll
 - [Lucide React](https://lucide.dev/) - Iconos
 

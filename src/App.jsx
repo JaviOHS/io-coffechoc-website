@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+import { useEffect } from 'react';
 import Nav from './components/Nav';
 import useFetchData from './hooks/useFetchData';
 import Header from './pages/Header';
@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 function App() {
   const { data, loading, error } = useFetchData('/data.json');
@@ -60,15 +59,13 @@ function App() {
   );
   
   return (
-    <Router>
-      <div className="App">
-        <Nav nav={data.nav} />
-        <Header header={data.header} />
-        <MainComponent data={data} />
-        <Footer footer={data.footer} />
-        <ScrollToTop />
-      </div>
-    </Router>
+    <div className="App">
+      <Nav nav={data.nav} />
+      <Header header={data.header} />
+      <MainComponent data={data} />
+      <Footer footer={data.footer} />
+      <ScrollToTop />
+    </div>
   );
 }
 

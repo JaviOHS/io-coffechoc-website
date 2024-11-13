@@ -6,7 +6,7 @@ import DecorativeBackground from '../components/DecorativeBackground';
 
 export default function About({ about }) {
   return (
-    <section id="about" className="relative py-24 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
+    <section id="about" className="relative py-20 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="geometricDark" theme="dark" />
       <div className="container mx-auto px-4" data-aos="fade-right" data-aos-duration="800">
         <SectionTitle iconLeft={Coffee} iconRight={Leaf} color="#e5dbaf" title={about.title} />

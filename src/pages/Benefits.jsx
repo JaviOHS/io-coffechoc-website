@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Battery, Brain, Heart, Shield, Smile, Newspaper, HeartPulse } from 'lucide-react';
+import { Battery, Brain, Heart, Shield, Smile, Newspaper, HeartPulse, MousePointerClick } from 'lucide-react';
 import SectionTitle from '../components/SectionTitle';
 import Card from '../components/Card';
 import BaseModal from '../components/BaseModal';
@@ -17,7 +17,7 @@ const Benefits = ({ benefits }) => {
   const [selectedBenefit, setSelectedBenefit] = useState(null);
 
   return (
-    <section id="benefits" className="relative py-16 bg-[#FAF5E4] overflow-hidden" data-aos="fade-in">
+    <section id="benefits" className="relative py-20 bg-[#FAF5E4] overflow-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="geometricLight" theme="light" />
       <div className="container mx-auto px-6" data-aos="zoom-in">
         <SectionTitle iconLeft={Newspaper} iconRight={HeartPulse} color="#4A3C31" title={benefits.title} />
@@ -37,7 +37,12 @@ const Benefits = ({ benefits }) => {
                 icon: '#7D4F3A',
                 text: '#4A3C31',
               }}
-              description="Click para más información"
+              description={
+                <span className="flex items-center gap-2">
+                  Clic para más información
+                  <MousePointerClick className="w-6 h-6 text-[#4A3C31]" />
+                </span>
+              }
               onClick={() => setSelectedBenefit(benefit)}
             />
           ))}

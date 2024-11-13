@@ -37,7 +37,7 @@ const Objectives = ({ objectives }) => {
   };
 
   return (
-    <section className="relative py-16 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-x-hidden" data-aos="fade-in">
+    <section className="relative py-20 bg-gradient-to-br from-[#2C1810] to-[#4A2C1D] overflow-x-hidden" data-aos="fade-in">
       <DecorativeBackground pattern="dots" theme="dark"/>
       <div className="container mx-auto px-4">
         <SectionTitle iconLeft={Award} iconRight={Presentation} color="#e5dbaf" title={objectives.title} />
